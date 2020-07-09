@@ -14,3 +14,12 @@
 .grid div:hover {
     border: 1px solid #f1c40f
 }
+
+@media screen and (max-width: 800px){
+    .grid {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4,500px);
+        gap: 0.5em;
+    
+    }
+}
